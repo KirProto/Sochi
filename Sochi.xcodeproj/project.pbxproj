@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6B3B25281D1EDE00E90D26 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F6B3B24281D1EDD00E90D26 /* locations.json */; };
 		4F8D3F1B28103ACC004241AB /* SochiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D3F1A28103ACC004241AB /* SochiApp.swift */; };
 		4F8D3F1D28103ACC004241AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D3F1C28103ACC004241AB /* ContentView.swift */; };
 		4F8D3F1F28103AD9004241AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D3F1E28103AD9004241AB /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F6B3B24281D1EDD00E90D26 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		4F8D3F1728103ACC004241AB /* Sochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D3F1A28103ACC004241AB /* SochiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SochiApp.swift; sourceTree = "<group>"; };
 		4F8D3F1C28103ACC004241AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		4F8D3F1928103ACC004241AB /* Sochi */ = {
 			isa = PBXGroup;
 			children = (
+				4F6B3B24281D1EDD00E90D26 /* locations.json */,
 				4F8D3F1A28103ACC004241AB /* SochiApp.swift */,
 				4F8D3F1C28103ACC004241AB /* ContentView.swift */,
 				4F8D3F1E28103AD9004241AB /* Assets.xcassets */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F8D3F2228103AD9004241AB /* Preview Assets.xcassets in Resources */,
+				4F6B3B25281D1EDE00E90D26 /* locations.json in Resources */,
 				4F8D3F1F28103AD9004241AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

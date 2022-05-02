@@ -1,0 +1,42 @@
+{
+"locations": [
+
+
+{
+"id": 0,
+"name": "MoreMall",
+"latitude": 40.71,
+"longitude": -74
+},
+
+{
+"id": 1,
+"name": "Мор Порт",
+"latitude": ,
+"longitude": 
+},
+
+{
+"id": 2,
+"name": "Пляж Альбатрос",
+"latitude": ,
+"longitude": 
+},
+
+{
+"id": 3,
+"name": "",
+"latitude": ,
+"longitude": 
+},
+
+{
+"id": 4,
+"name": "",
+"latitude": ,
+"longitude": 
+},
+
+
+]
+}
