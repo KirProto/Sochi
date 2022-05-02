@@ -13,16 +13,22 @@ struct ContentView: View {
     @State private var locations: [Location] = []
     
     @State private var coordinateRegion = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 19.43, longitude: -99.13),
-        span: MKCoordinateSpan(latitudeDelta: 50, longitudeDelta: 50)
+        center: CLLocationCoordinate2D(latitude: 43.603440419227056, longitude: 39.73645661205002),
+        span: MKCoordinateSpan(latitudeDelta: 0.7, longitudeDelta: 0.7)
     )
     
     var body: some View {
         //        MapView()
         //            .edgesIgnoringSafeArea(.all)
-        Map(coordinateRegion: $coordinateRegion, annotationItems: locations) { Location in
+        Map(
+            coordinateRegion: $coordinateRegion,
+            annotationItems: locations
+        ) { location in
             MapAnnotation(
-                coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+                coordinate: CLLocationCoordinate2D(
+                    latitude: location.latitude,
+                    longitude: location.longitude
+                )
             ) {
                 VStack {
                     Text(location.name)
@@ -35,7 +41,8 @@ struct ContentView: View {
                 }
             }
         }
-            .onAppear(perform: readFile)
+        .edgesIgnoringSafeArea(.all)
+        .onAppear(perform: readFile)
     }
     
     private func readFile () {

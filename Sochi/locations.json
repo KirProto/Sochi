@@ -1,42 +1,42 @@
 {
-"locations": [
-
-
-{
-"id": 0,
-"name": "MoreMall",
-"latitude": 40.71,
-"longitude": -74
-},
-
-{
-"id": 1,
-"name": "Мор Порт",
-"latitude": ,
-"longitude": 
-},
-
-{
-"id": 2,
-"name": "Пляж Альбатрос",
-"latitude": ,
-"longitude": 
-},
-
-{
-"id": 3,
-"name": "",
-"latitude": ,
-"longitude": 
-},
-
-{
-"id": 4,
-"name": "",
-"latitude": ,
-"longitude": 
-},
-
-
-]
+    "locations": [
+        
+        
+        {
+            "id": 0,
+            "name": "MoreMall",
+            "latitude": 43.60503793899038,
+            "longitude": 39.73241312634454
+        },
+        
+        {
+            "id": 1,
+            "name": "Мор Порт",
+            "latitude": 43.58226306978496,
+            "longitude": 39.71793992663554
+        },
+        
+        {
+            "id": 2,
+            "name": "Пляж Альбатрос",
+            "latitude": 43.61305170098335,
+            "longitude": 39.70368567349579
+        },
+        
+        {
+            "id": 3,
+            "name": "Дендрарий",
+            "latitude": 43.57080385596739,
+            "longitude": 39.741976921238674
+        },
+        
+        {
+            "id": 4,
+            "name": "Парк Южные Культуры",
+            "latitude": 43.42371825131961,
+            "longitude": 39.938232524182396
+        },
+        
+        
+    ]
 }
